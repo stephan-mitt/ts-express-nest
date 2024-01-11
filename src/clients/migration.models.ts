@@ -1,5 +1,5 @@
 import mongoose from 'mongoose';
-import { User, UserSchema } from '../schemas/user.schema';
+import { User, UserSchema } from '../schemas/user.schema.js';
 
 // Defining models here makes it easier to use them in migrations
 const UserModel = mongoose.model(User.name, UserSchema);

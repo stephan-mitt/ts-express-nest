@@ -7,9 +7,9 @@ import {
   Post,
   Put,
 } from '@nestjs/common';
-import { UserService } from '../services/user.service';
-import { User } from '../schemas/user.schema';
-import { UserDto } from '../dto/user.dto';
+import { UserService } from '../services/user.service.js';
+import { User } from '../schemas/user.schema.js';
+import { UserDto } from '../dto/user.dto.js';
 
 @Controller('user')
 export class UserController {

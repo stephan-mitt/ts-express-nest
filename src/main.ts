@@ -1,7 +1,7 @@
 import { NestFactory } from '@nestjs/core';
 import { SwaggerModule, DocumentBuilder } from '@nestjs/swagger';
-import { AppModule } from './app.module';
-import { MigrationClient } from './clients/migration.client';
+import { AppModule } from './app.module.js';
+import { MigrationClient } from './clients/migration.client.js';
 
 async function bootstrap() {
   // We want to run migrations before starting the app

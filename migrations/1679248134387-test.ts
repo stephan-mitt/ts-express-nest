@@ -1,4 +1,4 @@
-import { getModels } from '../src/clients/migration.models';
+import { getModels } from '../src/clients/migration.models.js';
 
 export async function up() {
   const { UserModel } = await getModels();
